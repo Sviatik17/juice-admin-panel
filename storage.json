@@ -1,0 +1,18 @@
+{
+    "drinks":[
+        {
+            "name":"Sandora",
+            "count":0,
+            "category":"Сік",
+            "price":40,
+            "value":1
+        },
+        {
+            "name":"Садочок",
+            "count":0,
+            "category":"Сік",
+            "price":35,
+            "value":1
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juice</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.js' integrity='sha512-yyr/AZnf9KbRjIKQpglQyZeyz2sOJCa0bcAt+qBnY/jfatfojXGz3eymOoZisKcIv9P49K/PzSJwdL5dwOfgGQ==' crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css' integrity='sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ==' crossorigin='anonymous'/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrap">
+
+        <div class="orderPopup">
+            <h2>Нове замовлення</h2>
+            <select class="orderName"></select>
+            <input type="text" name="orderCount" id="orderCount" placeholder="К-сть л.">
+            <input type="text" name="orderPrice" id="orderPrice" placeholder="Ціна">
+            <input type="text" name="deliveryPrice" id="deliveryPrice" placeholder="Доставка">
+
+            <div class="popupBtn">
+                <button class="confirmBtn">Підтвердити</button>
+                <button class="cancelBtn">Відхилити</button>
+            </div>
+        </div>
+        
+        <header>
+            <h1>Juice</h1>
+            <div class="headerBtn">
+                <button id="orderBtn">замовити</button>
+                <button id="sellBtn">продати</button>
+            </div>
+        </header>
+        <div class="storageContainer">
+            <div class="storageItems"></div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
